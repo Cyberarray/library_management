@@ -14,7 +14,7 @@
       $session = $_POST['session'];
       $program= $_POST['program'];
       $semester= $_POST['semester'];
-
+// db connection
       $db = new db();
 
       if($db->std_entry($conn,$studentName,$dob,$gender,$email,$phone,$add,$session,$program,$semester)){
@@ -36,7 +36,7 @@
                     </div>
                 </div>
           
-
+//container 
 <div class="form-container">
     <form action="#" method="post" role="form">
 

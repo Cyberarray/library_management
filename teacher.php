@@ -9,7 +9,7 @@
 	<?php 
 		if(isset($_GET['teacher_id'])){
        $t_id = $_GET['teacher_id'];
-
+//teachers
        if($db->delete_teacher_record($conn,'teacher_table',$t_id)){
        echo "Record was Deleted";
             }
